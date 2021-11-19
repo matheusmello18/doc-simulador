@@ -26,3 +26,34 @@ abrir o cmd e digitar o comando a baixo
 ```sh
 # npm install --global yarn
 ```
+
+# Linux
+
+## `VsCode`
+
+Instalar via download.
+
+## `Curl`
+
+```sh
+# sudo apt-get install curl
+```
+
+## `Git`
+
+```sh
+# sudo apt-get install git
+```
+
+## `Nodejs`
+
+```sh
+# curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
+# sudo apt-get install -y nodejs
+```
+
+## `Yarn`
+
+```sh
+# sudo apt update && sudo apt install yarn
+```
