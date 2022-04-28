@@ -2,7 +2,7 @@
 
 ## `Executáveis`
 
-Diretório: \\192.168.1.3\Utilitarios\SimuladorCat42
+Diretório: \\192.168.1.3\Utilitarios\Desenvolvimento\1.2 SimuladorCat42
 
 ## `VS Code`
 
