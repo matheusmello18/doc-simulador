@@ -1,0 +1,8 @@
+.image img {
+  width: 120px;
+  height: 30px;
+}
+
+body.small-header .top-nav {
+  height: 85px;
+}

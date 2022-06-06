@@ -6,7 +6,8 @@
  
  serve.use(bodyParser.urlencoded({extended: false}))
  serve.use(bodyParser.json())
- serve.use(express.static(path.join(__dirname, "")))
+ serve.use(express.static(path.join(__dirname, "../public")))
+ console.log(__dirname)
  
  serve.listen(8082, function(){
    console.log("Servidor Rodando. Url: http://localhost:8082");
