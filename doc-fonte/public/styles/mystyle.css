@@ -1,8 +1,8 @@
 .image img {
-  width: 120px;
-  height: 30px;
+  width: 80px;
+  height: 20px;
 }
 
 body.small-header .top-nav {
-  height: 85px;
+  height: 75px;
 }
