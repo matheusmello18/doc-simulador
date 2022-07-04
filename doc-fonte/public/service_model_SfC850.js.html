@@ -1,0 +1,270 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Painel Fiscal service/model/SfC850.js</title>
+
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="./build/entry.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700|Inconsolata,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://jmblog.github.io/color-themes-for-google-code-prettify/themes/tomorrow-night.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/app.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/iframe.css">
+  <link type="text/css" rel="stylesheet" href="styles/mystyle.css">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  
+</head>
+
+
+
+<body class="layout small-header">
+    <div id="stickyNavbarOverlay"></div>
+    
+
+<div class="top-nav">
+    <div class="inner">
+        <a id="hamburger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+        <div class="logo">
+             
+                <a class="image" href="index.html">
+                    <img src="images/painel-fiscal-horizontal-dark.png" alt="logo">
+                </a>
+            
+             
+                <a href="index.html">
+                    <h1 class="navbar-item">Painel Documentation</h1>
+                </a>
+            
+        </div>
+        <div class="menu">
+            
+            <div class="navigation">
+                <a
+                    href="index.html"
+                    class="link"
+                >
+                    Documentation
+                </a>
+                
+                 
+                    
+                        <a
+                            class="link user-link "
+                            href="https://github.com/matheusmello18"
+                        >
+                            Github
+                        </a>
+                    
+                        <a
+                            class="link user-link "
+                            href="http://wwww.simuladorcat42.com.br/"
+                        >
+                            Simulador da Cat42
+                        </a>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="main">
+        <div
+            class="sidebar "
+            id="sidebarNav"
+        >
+            
+                <div class="search-wrapper">
+                    <input id="search" type="text" placeholder="Search docs..." class="input">
+                </div>
+            
+            <nav>
+                
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Modules</h3><ul><li><a href="module-index.html">index</a></li><li><a href="module-model.html">model</a></li><li><a href="module-model_Ac331.html">model/Ac331</a></li><li><a href="module-model_Ac413.html">model/Ac413</a></li><li><a href="module-model_Ac431.html">model/Ac431</a></li><li><a href="module-model_Ac432.html">model/Ac432</a></li><li><a href="module-model_Ac0450.html">model/Ac0450</a></li><li><a href="module-model_AcC050.html">model/AcC050</a></li><li><a href="module-model_AcC060.html">model/AcC060</a></li><li><a href="module-model_AcC700.html">model/AcC700</a></li><li><a href="module-model_Cfop.html">model/Cfop</a></li><li><a href="module-model_CtrlEmpresa.html">model/CtrlEmpresa</a></li><li><a href="module-model_CtrlUsuario.html">model/CtrlUsuario</a></li><li><a href="module-model_Etapas.html">model/Etapas</a></li><li><a href="module-model_EtapaStatus.html">model/EtapaStatus</a></li><li><a href="module-model_ModeloDocumento.html">model/ModeloDocumento</a></li><li><a href="module-model_NotaFiscal.html">model/NotaFiscal</a></li><li><a href="module-model_NotaFiscalItem.html">model/NotaFiscalItem</a></li><li><a href="module-model_Pessoa.html">model/Pessoa</a></li><li><a href="module-model_Produto.html">model/Produto</a></li><li><a href="module-model_ProdutoSimulador.html">model/ProdutoSimulador</a></li><li><a href="module-model_Sf0190.html">model/Sf0190</a></li><li><a href="module-model_Sf433.html">model/Sf433</a></li><li><a href="module-model_Sf434.html">model/Sf434</a></li><li><a href="module-model_Sf453.html">model/Sf453</a></li><li><a href="module-model_Sf0460.html">model/Sf0460</a></li><li><a href="module-model_SfC110.html">model/SfC110</a></li><li><a href="module-model_SfC195.html">model/SfC195</a></li><li><a href="module-model_SfC800.html">model/SfC800</a></li><li><a href="module-model_SfC850.html">model/SfC850</a></li><li><a href="module-model_SfCest.html">model/SfCest</a></li><li><a href="module-model_SFImportaArquivo.html">model/SFImportaArquivo</a></li></ul><h3>Classes</h3><ul><li><a href="module-model_Ac331-ExIPI.html">ExIPI</a></li><li><a href="module-model_Ac331-Municipio.html">Municipio</a></li><li><a href="module-model_Ac331-Ncm.html">Ncm</a></li><li><a href="module-model_Ac331-Pais.html">Pais</a></li><li><a href="module-model_Ac413-Ac413.html">Ac413</a></li><li><a href="module-model_Ac431-Ac431.html">Ac431</a></li><li><a href="module-model_Ac432-Ac432.html">Ac432</a></li><li><a href="module-model_Ac0450-Ac0450.html">Ac0450</a></li><li><a href="module-model_AcC050-AcC050Entrada.html">AcC050Entrada</a></li><li><a href="module-model_AcC050-AcC050Saida.html">AcC050Saida</a></li><li><a href="module-model_AcC060-AcC060Entrada.html">AcC060Entrada</a></li><li><a href="module-model_AcC700-AcC700Entrada.html">AcC700Entrada</a></li><li><a href="module-model_AcC700-AcC700Saida.html">AcC700Saida</a></li><li><a href="module-model_Cfop-CFOP.html">CFOP</a></li><li><a href="module-model_CtrlEmpresa-CtrlEmpresa.html">CtrlEmpresa</a></li><li><a href="module-model_CtrlUsuario-CtrlUsuario.html">CtrlUsuario</a></li><li><a href="module-model_EtapaStatus-EtapaStatus.html">EtapaStatus</a></li><li><a href="module-model_Etapas-Etapas.html">Etapas</a></li><li><a href="module-model_ModeloDocumento-ModeloDocumento.html">ModeloDocumento</a></li><li><a href="module-model_NotaFiscalItem-NotaFiscalEntradaProdutoItem.html">NotaFiscalEntradaProdutoItem</a></li><li><a href="module-model_NotaFiscalItem-NotaFiscalSaidaProdutoItem.html">NotaFiscalSaidaProdutoItem</a></li><li><a href="module-model_NotaFiscal-NotaFiscalEntradaProduto.html">NotaFiscalEntradaProduto</a></li><li><a href="module-model_NotaFiscal-NotaFiscalSaidaProduto.html">NotaFiscalSaidaProduto</a></li><li><a href="module-model_Pessoa-Pessoa.html">Pessoa</a></li><li><a href="module-model_Pessoa-PessoaMestre.html">PessoaMestre</a></li><li><a href="module-model_ProdutoSimulador-ProdutoSimulador.html">ProdutoSimulador</a></li><li><a href="module-model_Produto-Produto.html">Produto</a></li><li><a href="module-model_Produto-ProdutoMestre.html">ProdutoMestre</a></li><li><a href="module-model_Produto-ProdutoMestreItem.html">ProdutoMestreItem</a></li><li><a href="module-model_Sf0190-Sf0190.html">Sf0190</a></li><li><a href="module-model_Sf433-Sf433.html">Sf433</a></li><li><a href="module-model_Sf434-Sf434.html">Sf434</a></li><li><a href="module-model_Sf453-Sf453.html">Sf453</a></li><li><a href="module-model_Sf0460-Sf0460.html">Sf0460</a></li><li><a href="module-model_SfC110-SfC110Entrada.html">SfC110Entrada</a></li><li><a href="module-model_SfC110-SfC110Saida.html">SfC110Saida</a></li><li><a href="module-model_SfC195-SfC195Entrada.html">SfC195Entrada</a></li><li><a href="module-model_SfC195-SfC195Saida.html">SfC195Saida</a></li><li><a href="module-model_SfC800-SfC800.html">SfC800</a></li><li><a href="module-model_SfC800-SfC800_SfC850.html">SfC850</a></li><li><a href="module-model_SfC850-SfC850.html">SfC850</a></li><li><a href="module-model_SfCest-SfCest.html">SfCest</a></li><li><a href="module-model_SFImportaArquivo-SFImportaArquivo.html">SFImportaArquivo</a></li></ul><h3>Global</h3><ul><li><a href="global.html#Cfe">Cfe</a></li><li><a href="global.html#getValueArray">getValueArray</a></li><li><a href="global.html#ifelse">ifelse</a></li><li><a href="global.html#isArray">isArray</a></li><li><a href="global.html#Nfe">Nfe</a></li><li><a href="global.html#XmlSaida">XmlSaida</a></li></ul></div>
+                
+            </nav>
+        </div>
+        <div class="core" id="main-content-wrapper">
+            <div class="content">
+                <header class="page-title">
+                    <p>Source</p>
+                    <h1>service/model/SfC850.js</h1>
+                </header>
+                
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * Modulo SfC850
+ * 
+ * @module model/SfC850
+ */
+
+ const Oracle = require('../Oracle');
+
+ /**
+  * Classe de SfC850
+  * 
+  * @constructor
+  * @example
+  * const model = require('./model');
+  * const SfC850 = new model.SfC800.SfC850();
+  */
+ var SfC850 = function(){
+   if(!(this instanceof SfC850))
+     return new SfC850();
+ };
+  
+  /**
+   * Função buscar os dados do SfC850 por código modelo documetno
+   * 
+   * @param {dataSfC850} dataSfC850
+   * @returns {Promise} Promise
+   * @example
+   * var dataSfC850 = {
+   *   nr_item: 1,
+   *   dt_documento: '',
+   *   nr_cfe: '',
+   *   id_ref_413: 0,
+   *   nr_serie_sat: '',
+   *   cd_fiscal_operacao: '',
+   *   id_produto_servico: 0,
+   *   vl_total_item: 0,
+   *   id_0460: 0,
+   *   id_ref_431: 0,
+   *   aliq_icms: 0,
+   *   vl_bc_icms: 0,
+   *   vl_icms: 0,
+   *   id_ref_433: 0,
+   *   aliq_pis: 0,
+   *   vl_bc_pis: 0,
+   *   vl_pis: 0,
+   *   vl_aliq_pis: 0,
+   *   vl_qtde_bc_pis: 0,
+   *   id_ref_434: 0,
+   *   vl_bc_cofins: 0,
+   *   aliq_cofins: 0,
+   *   vl_cofins: 0,
+   *   vl_aliq_cofins: 0,
+   *   vl_qtde_bc_cofins: 0,
+   *   vl_desconto: 0,
+   *   vl_outras_desp: 0,
+   *   qtde: 0,
+   *   vl_unitario: 0,
+   *   id_empresa: 1,
+   *   id_usuario: 1
+   * }
+   * 
+   * await SfC850.insert(dataSfC850);
+   * 
+   * ou
+   *
+   * const data = await SfC850.insert(dataSfC850).then((e) => {
+   *    return e;
+   * }).catch((err) => {
+   *    throw new Error('Erro ao inserir o registro.');
+   * })
+   */
+  
+  SfC850.prototype.insert = async (dataSfC850) => {
+		let sql = `insert into sf_c850 
+							( nr_item, dt_documento, nr_cfe, id_ref_413, nr_serie_sat, cd_fiscal_operacao, id_produto_servico, vl_total_item, id_0460, id_ref_431, aliq_icms, vl_bc_icms, vl_icms, id_ref_433, aliq_pis, vl_bc_pis, vl_pis, vl_aliq_pis, vl_qtde_bc_pis, id_ref_434, vl_bc_cofins, aliq_cofins, vl_cofins, vl_aliq_cofins, vl_qtde_bc_cofins, vl_desconto, vl_outras_desp, qtde, vl_unitario, id_empresa, id_usuario) 
+							values 
+							( :nr_item, :dt_documento, :nr_cfe, :id_ref_413, :nr_serie_sat, :cd_fiscal_operacao, :id_produto_servico, :vl_total_item, :id_0460, :id_ref_431, :aliq_icms, :vl_bc_icms, :vl_icms, :id_ref_433, :aliq_pis, :vl_bc_pis, :vl_pis, :vl_aliq_pis, :vl_qtde_bc_pis, :id_ref_434, :vl_bc_cofins, :aliq_cofins, :vl_cofins, :vl_aliq_cofins, :vl_qtde_bc_cofins, :vl_desconto, :vl_outras_desp, :qtde, :vl_unitario, :id_empresa, :id_usuario)
+							`;
+		try {
+			await Oracle.insert(sql, dataSfC850)
+		} catch (err) {
+			throw new Error(err);
+		}
+	}
+
+module.exports.SfC850 = SfC850;
+
+/**
+ * Campos da Tabela SfC850
+ * 
+ * @typedef {Object} dataSfC850
+ * @property {Number} nr_item
+ * @property {String} dt_documento
+ * @property {Number} nr_cfe
+ * @property {String} id_ref_413
+ * @property {Number} nr_serie_sat
+ * @property {Number} cd_fiscal_operacao
+ * @property {String} id_produto_servico
+ * @property {Number} vl_total_item
+ * @property {String} id_0460
+ * @property {String} id_ref_431
+ * @property {Number} aliq_icms
+ * @property {Number} vl_bc_icms
+ * @property {Number} vl_icms
+ * @property {Number} id_ref_433
+ * @property {Number} aliq_pis
+ * @property {Number} vl_bc_pis
+ * @property {Number} vl_pis
+ * @property {Number} vl_aliq_pis
+ * @property {Number} vl_qtde_bc_pis
+ * @property {Number} id_ref_434
+ * @property {Number} vl_bc_cofins
+ * @property {Number} aliq_cofins
+ * @property {Number} vl_cofins
+ * @property {Number} vl_aliq_cofins
+ * @property {Number} vl_qtde_bc_cofins
+ * @property {Number} qtde
+ * @property {Number} vl_unitario
+ * @property {Number} vl_outras_desp
+ * @property {Number} vl_desconto
+ * @property {Number} id_empresa
+ * @property {Number} id_usuario
+ * @global
+ */</code></pre>
+        </article>
+    </section>
+
+
+
+
+            </div>
+            
+            <footer class="footer">
+                <div class="content has-text-centered">
+                    <p>Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.10</a></p>
+                    <p class="sidebar-created-by">
+                        <a href="https://github.com/SoftwareBrothers/better-docs" target="_blank">BetterDocs theme</a> provided with <i class="fas fa-heart"></i> by
+                        <a href="http://softwarebrothers.co" target="_blank">SoftwareBrothers - JavaScript Development Agency</a>
+                    </p>
+                </div>
+            </footer>
+            
+        </div>
+        <div id="side-nav" class="side-nav">
+        </div>
+    </div>
+<script src="scripts/app.min.js"></script>
+<script>PR.prettyPrint();</script>
+<script src="scripts/linenumber.js"> </script>
+
+<script src="scripts/search.js"> </script>
+
+
+</body>
+</html>

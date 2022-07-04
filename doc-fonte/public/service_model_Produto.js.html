@@ -1,0 +1,439 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Painel Fiscal service/model/Produto.js</title>
+
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="./build/entry.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700|Inconsolata,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://jmblog.github.io/color-themes-for-google-code-prettify/themes/tomorrow-night.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/app.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/iframe.css">
+  <link type="text/css" rel="stylesheet" href="styles/mystyle.css">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  
+</head>
+
+
+
+<body class="layout small-header">
+    <div id="stickyNavbarOverlay"></div>
+    
+
+<div class="top-nav">
+    <div class="inner">
+        <a id="hamburger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+        <div class="logo">
+             
+                <a class="image" href="index.html">
+                    <img src="images/painel-fiscal-horizontal-dark.png" alt="logo">
+                </a>
+            
+             
+                <a href="index.html">
+                    <h1 class="navbar-item">Painel Documentation</h1>
+                </a>
+            
+        </div>
+        <div class="menu">
+            
+            <div class="navigation">
+                <a
+                    href="index.html"
+                    class="link"
+                >
+                    Documentation
+                </a>
+                
+                 
+                    
+                        <a
+                            class="link user-link "
+                            href="https://github.com/matheusmello18"
+                        >
+                            Github
+                        </a>
+                    
+                        <a
+                            class="link user-link "
+                            href="http://wwww.simuladorcat42.com.br/"
+                        >
+                            Simulador da Cat42
+                        </a>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="main">
+        <div
+            class="sidebar "
+            id="sidebarNav"
+        >
+            
+                <div class="search-wrapper">
+                    <input id="search" type="text" placeholder="Search docs..." class="input">
+                </div>
+            
+            <nav>
+                
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Modules</h3><ul><li><a href="module-index.html">index</a></li><li><a href="module-model.html">model</a></li><li><a href="module-model_Ac331.html">model/Ac331</a></li><li><a href="module-model_Ac413.html">model/Ac413</a></li><li><a href="module-model_Ac431.html">model/Ac431</a></li><li><a href="module-model_Ac432.html">model/Ac432</a></li><li><a href="module-model_Ac0450.html">model/Ac0450</a></li><li><a href="module-model_AcC050.html">model/AcC050</a></li><li><a href="module-model_AcC060.html">model/AcC060</a></li><li><a href="module-model_AcC700.html">model/AcC700</a></li><li><a href="module-model_Cfop.html">model/Cfop</a></li><li><a href="module-model_CtrlEmpresa.html">model/CtrlEmpresa</a></li><li><a href="module-model_CtrlUsuario.html">model/CtrlUsuario</a></li><li><a href="module-model_Etapas.html">model/Etapas</a></li><li><a href="module-model_EtapaStatus.html">model/EtapaStatus</a></li><li><a href="module-model_ModeloDocumento.html">model/ModeloDocumento</a></li><li><a href="module-model_NotaFiscal.html">model/NotaFiscal</a></li><li><a href="module-model_NotaFiscalItem.html">model/NotaFiscalItem</a></li><li><a href="module-model_Pessoa.html">model/Pessoa</a></li><li><a href="module-model_Produto.html">model/Produto</a></li><li><a href="module-model_ProdutoSimulador.html">model/ProdutoSimulador</a></li><li><a href="module-model_Sf0190.html">model/Sf0190</a></li><li><a href="module-model_Sf433.html">model/Sf433</a></li><li><a href="module-model_Sf434.html">model/Sf434</a></li><li><a href="module-model_Sf453.html">model/Sf453</a></li><li><a href="module-model_Sf0460.html">model/Sf0460</a></li><li><a href="module-model_SfC110.html">model/SfC110</a></li><li><a href="module-model_SfC195.html">model/SfC195</a></li><li><a href="module-model_SfC800.html">model/SfC800</a></li><li><a href="module-model_SfC850.html">model/SfC850</a></li><li><a href="module-model_SfCest.html">model/SfCest</a></li><li><a href="module-model_SFImportaArquivo.html">model/SFImportaArquivo</a></li></ul><h3>Classes</h3><ul><li><a href="module-model_Ac331-ExIPI.html">ExIPI</a></li><li><a href="module-model_Ac331-Municipio.html">Municipio</a></li><li><a href="module-model_Ac331-Ncm.html">Ncm</a></li><li><a href="module-model_Ac331-Pais.html">Pais</a></li><li><a href="module-model_Ac413-Ac413.html">Ac413</a></li><li><a href="module-model_Ac431-Ac431.html">Ac431</a></li><li><a href="module-model_Ac432-Ac432.html">Ac432</a></li><li><a href="module-model_Ac0450-Ac0450.html">Ac0450</a></li><li><a href="module-model_AcC050-AcC050Entrada.html">AcC050Entrada</a></li><li><a href="module-model_AcC050-AcC050Saida.html">AcC050Saida</a></li><li><a href="module-model_AcC060-AcC060Entrada.html">AcC060Entrada</a></li><li><a href="module-model_AcC700-AcC700Entrada.html">AcC700Entrada</a></li><li><a href="module-model_AcC700-AcC700Saida.html">AcC700Saida</a></li><li><a href="module-model_Cfop-CFOP.html">CFOP</a></li><li><a href="module-model_CtrlEmpresa-CtrlEmpresa.html">CtrlEmpresa</a></li><li><a href="module-model_CtrlUsuario-CtrlUsuario.html">CtrlUsuario</a></li><li><a href="module-model_EtapaStatus-EtapaStatus.html">EtapaStatus</a></li><li><a href="module-model_Etapas-Etapas.html">Etapas</a></li><li><a href="module-model_ModeloDocumento-ModeloDocumento.html">ModeloDocumento</a></li><li><a href="module-model_NotaFiscalItem-NotaFiscalEntradaProdutoItem.html">NotaFiscalEntradaProdutoItem</a></li><li><a href="module-model_NotaFiscalItem-NotaFiscalSaidaProdutoItem.html">NotaFiscalSaidaProdutoItem</a></li><li><a href="module-model_NotaFiscal-NotaFiscalEntradaProduto.html">NotaFiscalEntradaProduto</a></li><li><a href="module-model_NotaFiscal-NotaFiscalSaidaProduto.html">NotaFiscalSaidaProduto</a></li><li><a href="module-model_Pessoa-Pessoa.html">Pessoa</a></li><li><a href="module-model_Pessoa-PessoaMestre.html">PessoaMestre</a></li><li><a href="module-model_ProdutoSimulador-ProdutoSimulador.html">ProdutoSimulador</a></li><li><a href="module-model_Produto-Produto.html">Produto</a></li><li><a href="module-model_Produto-ProdutoMestre.html">ProdutoMestre</a></li><li><a href="module-model_Produto-ProdutoMestreItem.html">ProdutoMestreItem</a></li><li><a href="module-model_Sf0190-Sf0190.html">Sf0190</a></li><li><a href="module-model_Sf433-Sf433.html">Sf433</a></li><li><a href="module-model_Sf434-Sf434.html">Sf434</a></li><li><a href="module-model_Sf453-Sf453.html">Sf453</a></li><li><a href="module-model_Sf0460-Sf0460.html">Sf0460</a></li><li><a href="module-model_SfC110-SfC110Entrada.html">SfC110Entrada</a></li><li><a href="module-model_SfC110-SfC110Saida.html">SfC110Saida</a></li><li><a href="module-model_SfC195-SfC195Entrada.html">SfC195Entrada</a></li><li><a href="module-model_SfC195-SfC195Saida.html">SfC195Saida</a></li><li><a href="module-model_SfC800-SfC800.html">SfC800</a></li><li><a href="module-model_SfC800-SfC800_SfC850.html">SfC850</a></li><li><a href="module-model_SfC850-SfC850.html">SfC850</a></li><li><a href="module-model_SfCest-SfCest.html">SfCest</a></li><li><a href="module-model_SFImportaArquivo-SFImportaArquivo.html">SFImportaArquivo</a></li></ul><h3>Global</h3><ul><li><a href="global.html#Cfe">Cfe</a></li><li><a href="global.html#getValueArray">getValueArray</a></li><li><a href="global.html#ifelse">ifelse</a></li><li><a href="global.html#isArray">isArray</a></li><li><a href="global.html#Nfe">Nfe</a></li><li><a href="global.html#XmlSaida">XmlSaida</a></li></ul></div>
+                
+            </nav>
+        </div>
+        <div class="core" id="main-content-wrapper">
+            <div class="content">
+                <header class="page-title">
+                    <p>Source</p>
+                    <h1>service/model/Produto.js</h1>
+                </header>
+                
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * Modulo Produto
+ * 
+ * @module model/Produto
+ */
+const Oracle = require('../Oracle');
+
+/**
+ * Classe de Produto
+ * 
+ * @constructor
+ * @example
+ * const model = require('./model');
+ * const Produto = new model.Produto();
+ */
+
+var Produto = function(){
+  if(!(this instanceof Produto))
+    return new Produto();
+};
+
+ /**
+	* Função inserir os dados do Produto/Serviço
+	* 
+	* @param {dataProdutoServico} dataProdutoServico
+	* @returns {Promise} Promise
+	* @example
+	* var dataProdutoServico = {
+	*   cd_produto_servico: '', 
+	*   cd_barra: '', 
+	*   ds_produto_servico: '', 
+	*   id_ref_331_ncm: 0, 
+	*   id_ref_331_ex_ipi: 0, 
+	*   dm_tipo_item: '', 
+	*   unidade: '', 
+	*   id_0190: 0,
+	*   dt_inicial: '', 
+	*   dt_movimento: '', 
+	*   id_cest: 0, 
+	*   id_empresa: 1, 
+	*   id_usuario: 1
+	* }
+	* await Produto.insert(dataProdutoServico);
+	* 
+	* ou
+	*
+	* const data = await Produto.insert(dataProdutoServico).then((e) => {
+	*    return e;
+	* }).catch((err) => {
+	*    throw new Error('Erro ao inserir o registro.');
+	* })
+	*/
+Produto.prototype.insert = async (dataProdutoServico) => {
+	let sql = `insert into in_produto_servico 
+						( cd_produto_servico, cd_barra, ds_produto_servico, id_ref_331_ncm, id_ref_331_ex_ipi, dm_tipo_item, unidade, id_0190, dt_inicial, dt_movimento, id_cest, id_empresa, id_usuario) 
+						values 
+						( :cd_produto_servico, :cd_barra, :ds_produto_servico, :id_ref_331_ncm, :id_ref_331_ex_ipi, :dm_tipo_item, :unidade, :id_0190, :dt_inicial, :dt_movimento, :id_cest, :id_empresa, :id_usuario)
+						`;
+	try {
+		await Oracle.insert(sql, dataProdutoServico)
+	} catch (err) {
+		throw new Error(err);
+	}
+}
+
+/**
+	* Função inserir os dados do De Para Produto
+	* 
+	* @param {dataDeParaProduto} dataDeParaProduto
+	* @returns {Promise} Promise
+	* @example
+	* var dataDeParaProduto = {
+	*   cd_produto_saida: 'IMPORTAXML', 
+	*   cd_produto_entrada: '',
+  *		cnpj_principal: '', 
+	*		ds_produto_entrada: '', 
+	*		cd_ncm: '', 
+	*		dt_inicial: '', 
+	*		id_empresa: 1
+	* }
+	* await Produto.insertDePara(dataDeParaProduto);
+	* 
+	* ou
+	*
+	* const data = await Produto.insertDePara(dataDeParaProduto).then((e) => {
+	*    return e;
+	* }).catch((err) => {
+	*    throw new Error('Erro ao inserir o registro.');
+	* })
+	*/
+Produto.prototype.insertDePara = async (dataDeParaProduto) => {
+	let sql = `insert into comp_produtoe_produtos 
+						( cd_produto_saida, cd_produto_entrada, cnpj_principal, ds_produto_entrada, cd_ncm,  dt_inicial, id_empresa) 
+						values 
+						( :cd_produto_saida, :cd_produto_entrada, :cnpj_principal, :ds_produto_entrada, :cd_ncm, :dt_inicial, :id_empresa)
+						`;
+	try {
+		await Oracle.insert(sql, dataDeParaProduto)
+	} catch (err) {
+		throw new Error(err);
+	}
+}
+
+/**
+ * Função busca os dados do Produto por Código e Empresa
+ * 
+ * @param {string} cd_produto_entrada
+ * @param {string} cnpj_principal
+ * @param {string} dt_inicial
+ * @param {string} dt_final
+ * @param {Number} id_empresa
+ * @return {Promise} Promrise
+ * 
+ * @example
+ * const rows = (await Produto.selectDePara('562718', '12.302.200/00001-10', '01/08/2019', '30/08/2019', 1)).rows;
+ * 
+ * ou
+ *
+ * const rows = await Produto.selectDePara('562718', '12.302.200/00001-10', '01/08/2019', '30/08/2019', 1).then((e) => {
+ *    return e.rows;
+ * }).catch((err) => {
+ *    throw new Error(err.message)
+ * })
+ */
+ Produto.prototype.selectDePara = async (cd_produto_entrada, cnpj_principal, dt_inicial, dt_final, id_empresa) => {
+	let sql = `select cd_produto_entrada,
+	                  cd_produto_saida,
+										ds_produto_entrada
+ 							 from comp_produtoe_produtos
+							where cd_produto_entrada = :cd_produto_entrada
+							  and cnpj_principal     = :cnpj_principal
+								and dt_inicial         = :dt_inicial
+								and (dt_final          = :dt_final or dt_final is null)
+								and id_empresa         = :id_empresa`;
+	try {
+		return await Oracle.select(sql, {
+			cd_produto_entrada: cd_produto_entrada,
+			cnpj_principal: cnpj_principal,
+			dt_inicial: dt_inicial,
+			dt_final: dt_final,
+			id_empresa: id_empresa
+		})
+	} catch (err) {
+		throw new Error(err);
+	}
+}
+
+/**
+ * Gerar Produto Mestre Item
+ * @returns {Promise} Promise
+ */
+Produto.prototype.sp_gera_produto_mestre_item = async () => {
+  try {
+    return await Oracle.execProcedure('SP_GERA_PRODUTO_MESTRE_ITEM');
+  } catch (err) {
+    throw new Error(err);
+  }
+}
+
+/**
+ * Classe de ProdutoMestre
+ * 
+ * @constructor
+ * @example
+ * const model = require('./model');
+ * const ProdutoMestre = new model.Produto().Mestre();
+ */
+
+ var ProdutoMestre = function(){
+  if(!(this instanceof ProdutoMestre))
+    return new ProdutoMestre();
+};
+
+/**
+ * Função busca os dados do Produto por Código e Empresa
+ * 
+ * @param {string} cd_produto_servico
+ * @param {Number} id_empresa
+ * @return {Promise} Promrise
+ * 
+ * @example
+ * const rows = (await ProdutoMestre.selectByCodigo('562718', 1)).rows;
+ * 
+ * ou
+ *
+ * const rows = await ProdutoMestre.selectByCodigo('562718', 1).then((e) => {
+ *    return e.rows;
+ * }).catch((err) => {
+ *    throw new Error(err.message)
+ * })
+ */
+ProdutoMestre.prototype.selectByCodigo = async (cd_produto_servico, id_empresa) => {
+	let sql = `select max(id_produto_servico)
+								from in_produto_servico_mestre
+							where upper(cd_produto_servico) = upper(:cd_produto_servico)
+								and id_empresa                = :id_empresa`;
+	try {
+		return await Oracle.select(sql, {cd_produto_servico: cd_produto_servico, id_empresa: id_empresa})
+	} catch (err) {
+		throw new Error(err);
+	}
+}
+
+Produto.prototype.Mestre = new ProdutoMestre()
+
+/**
+ * Classe de ProdutoMestre
+ * 
+ * @constructor
+ * @example
+ * const model = require('./model');
+ * const ProdutoMestreItem = new model.Produto().Mestre().Item();
+ */
+
+ var ProdutoMestreItem = function(){
+  if(!(this instanceof ProdutoMestreItem))
+    return new ProdutoMestreItem();
+};
+
+/**
+ * Função busca os dados do Produto por código e empresa
+ * 
+ * @param {string} cd_produto_servico
+ * @param {Number} id_empresa
+ * @param {string} dt_inicial
+ * @return {Promise} Promrise
+ * 
+ * @example
+ * const rows = (await ProdutoMestreItem.selectByCodigo('562718', 1, '01/08/2019')).rows;
+ * 
+ * ou
+ *
+ * const rows = await ProdutoMestreItem.selectByCodigo('562718', 1, '01/08/2019').then((e) => {
+ *    return e.rows;
+ * }).catch((err) => {
+ *    throw new Error(err.message)
+ * })
+ */
+ProdutoMestreItem.prototype.selectByCodigo = async (cd_produto_servico, id_empresa, dt_inicial) => {
+	let sql = `select psm.cd_produto_servico, psi.ds_produto_servico, psi.dm_tipo_item
+								from in_produto_servico_mestre psm 
+								left join in_produto_servico_item psi on (psm.id_produto_servico = psi.id_produto_servico) 
+							where psm.id_empresa = :id_empresa
+								and upper(psm.cd_produto_servico) = upper(:cd_produto_servico) 
+								and (psi.dt_inicial = (select max(item.dt_inicial) 
+																					from in_produto_servico_item item 
+																				where item.id_produto_servico = psi.id_produto_servico 
+																					and item.dt_inicial &lt;= to_date(:dt_inicial, 'DD/MM/YYYY')) 
+										or psi.dt_inicial is null) `;
+	try {
+		return await Oracle.select(sql, {id_empresa: id_empresa, cd_produto_servico: cd_produto_servico, dt_inicial: dt_inicial})
+	} catch (err) {
+		throw new Error(err);
+	}
+}
+
+ProdutoMestre.prototype.Item = new ProdutoMestreItem();
+
+module.exports.Produto = Produto;
+
+/**
+ * Campos da Tabela dataProdutoServico
+ * 
+ * @typedef {Object} dataProdutoServico
+ * @property {String} cd_produto_servico
+ * @property {String} cd_barra
+ * @property {String} ds_produto_servico
+ * @property {Number} id_ref_331_ncm
+ * @property {Number} id_ref_331_ex_ipi
+ * @property {String} dm_tipo_item
+ * @property {String} unidade
+ * @property {Number} id_0190
+ * @property {String} dt_inicial
+ * @property {String} dt_movimento
+ * @property {Number} id_cest
+ * @property {Number} id_empresa
+ * @property {Number} id_usuario
+ * @global
+ */
+
+/**
+ * Campos da Tabela De Para Produto
+ * 
+ * @typedef {Object} dataDeParaProduto
+ * @property {String} cd_produto_saida
+ * @property {String} cd_produto_entrada
+ * @property {String} cnpj_principal
+ * @property {String} ds_produto_entrada
+ * @property {String} cd_ncm
+ * @property {String} dt_inicial
+ * @property {Number} id_empresa
+ * @global
+ */</code></pre>
+        </article>
+    </section>
+
+
+
+
+            </div>
+            
+            <footer class="footer">
+                <div class="content has-text-centered">
+                    <p>Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.10</a></p>
+                    <p class="sidebar-created-by">
+                        <a href="https://github.com/SoftwareBrothers/better-docs" target="_blank">BetterDocs theme</a> provided with <i class="fas fa-heart"></i> by
+                        <a href="http://softwarebrothers.co" target="_blank">SoftwareBrothers - JavaScript Development Agency</a>
+                    </p>
+                </div>
+            </footer>
+            
+        </div>
+        <div id="side-nav" class="side-nav">
+        </div>
+    </div>
+<script src="scripts/app.min.js"></script>
+<script>PR.prettyPrint();</script>
+<script src="scripts/linenumber.js"> </script>
+
+<script src="scripts/search.js"> </script>
+
+
+</body>
+</html>

@@ -1,0 +1,14743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Painel Fiscal Global</title>
+
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="./build/entry.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700|Inconsolata,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://jmblog.github.io/color-themes-for-google-code-prettify/themes/tomorrow-night.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/app.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/iframe.css">
+  <link type="text/css" rel="stylesheet" href="styles/mystyle.css">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  
+</head>
+
+
+
+<body class="layout small-header">
+    <div id="stickyNavbarOverlay"></div>
+    
+
+<div class="top-nav">
+    <div class="inner">
+        <a id="hamburger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+        <div class="logo">
+             
+                <a class="image" href="index.html">
+                    <img src="images/painel-fiscal-horizontal-dark.png" alt="logo">
+                </a>
+            
+             
+                <a href="index.html">
+                    <h1 class="navbar-item">Painel Documentation</h1>
+                </a>
+            
+        </div>
+        <div class="menu">
+            
+            <div class="navigation">
+                <a
+                    href="index.html"
+                    class="link"
+                >
+                    Documentation
+                </a>
+                
+                 
+                    
+                        <a
+                            class="link user-link "
+                            href="https://github.com/matheusmello18"
+                        >
+                            Github
+                        </a>
+                    
+                        <a
+                            class="link user-link "
+                            href="http://wwww.simuladorcat42.com.br/"
+                        >
+                            Simulador da Cat42
+                        </a>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="main">
+        <div
+            class="sidebar "
+            id="sidebarNav"
+        >
+            
+                <div class="search-wrapper">
+                    <input id="search" type="text" placeholder="Search docs..." class="input">
+                </div>
+            
+            <nav>
+                
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Modules</h3><ul><li><a href="module-index.html">index</a></li><li><a href="module-model.html">model</a></li><li><a href="module-model_Ac331.html">model/Ac331</a></li><li><a href="module-model_Ac413.html">model/Ac413</a></li><li><a href="module-model_Ac431.html">model/Ac431</a></li><li><a href="module-model_Ac432.html">model/Ac432</a></li><li><a href="module-model_Ac0450.html">model/Ac0450</a></li><li><a href="module-model_AcC050.html">model/AcC050</a></li><li><a href="module-model_AcC060.html">model/AcC060</a></li><li><a href="module-model_AcC700.html">model/AcC700</a></li><li><a href="module-model_Cfop.html">model/Cfop</a></li><li><a href="module-model_CtrlEmpresa.html">model/CtrlEmpresa</a></li><li><a href="module-model_CtrlUsuario.html">model/CtrlUsuario</a></li><li><a href="module-model_Etapas.html">model/Etapas</a></li><li><a href="module-model_EtapaStatus.html">model/EtapaStatus</a></li><li><a href="module-model_ModeloDocumento.html">model/ModeloDocumento</a></li><li><a href="module-model_NotaFiscal.html">model/NotaFiscal</a></li><li><a href="module-model_NotaFiscalItem.html">model/NotaFiscalItem</a></li><li><a href="module-model_Pessoa.html">model/Pessoa</a></li><li><a href="module-model_Produto.html">model/Produto</a></li><li><a href="module-model_ProdutoSimulador.html">model/ProdutoSimulador</a></li><li><a href="module-model_Sf0190.html">model/Sf0190</a></li><li><a href="module-model_Sf433.html">model/Sf433</a></li><li><a href="module-model_Sf434.html">model/Sf434</a></li><li><a href="module-model_Sf453.html">model/Sf453</a></li><li><a href="module-model_Sf0460.html">model/Sf0460</a></li><li><a href="module-model_SfC110.html">model/SfC110</a></li><li><a href="module-model_SfC195.html">model/SfC195</a></li><li><a href="module-model_SfC800.html">model/SfC800</a></li><li><a href="module-model_SfC850.html">model/SfC850</a></li><li><a href="module-model_SfCest.html">model/SfCest</a></li><li><a href="module-model_SFImportaArquivo.html">model/SFImportaArquivo</a></li></ul><h3>Classes</h3><ul><li><a href="module-model_Ac331-ExIPI.html">ExIPI</a></li><li><a href="module-model_Ac331-Municipio.html">Municipio</a></li><li><a href="module-model_Ac331-Ncm.html">Ncm</a></li><li><a href="module-model_Ac331-Pais.html">Pais</a></li><li><a href="module-model_Ac413-Ac413.html">Ac413</a></li><li><a href="module-model_Ac431-Ac431.html">Ac431</a></li><li><a href="module-model_Ac432-Ac432.html">Ac432</a></li><li><a href="module-model_Ac0450-Ac0450.html">Ac0450</a></li><li><a href="module-model_AcC050-AcC050Entrada.html">AcC050Entrada</a></li><li><a href="module-model_AcC050-AcC050Saida.html">AcC050Saida</a></li><li><a href="module-model_AcC060-AcC060Entrada.html">AcC060Entrada</a></li><li><a href="module-model_AcC700-AcC700Entrada.html">AcC700Entrada</a></li><li><a href="module-model_AcC700-AcC700Saida.html">AcC700Saida</a></li><li><a href="module-model_Cfop-CFOP.html">CFOP</a></li><li><a href="module-model_CtrlEmpresa-CtrlEmpresa.html">CtrlEmpresa</a></li><li><a href="module-model_CtrlUsuario-CtrlUsuario.html">CtrlUsuario</a></li><li><a href="module-model_EtapaStatus-EtapaStatus.html">EtapaStatus</a></li><li><a href="module-model_Etapas-Etapas.html">Etapas</a></li><li><a href="module-model_ModeloDocumento-ModeloDocumento.html">ModeloDocumento</a></li><li><a href="module-model_NotaFiscalItem-NotaFiscalEntradaProdutoItem.html">NotaFiscalEntradaProdutoItem</a></li><li><a href="module-model_NotaFiscalItem-NotaFiscalSaidaProdutoItem.html">NotaFiscalSaidaProdutoItem</a></li><li><a href="module-model_NotaFiscal-NotaFiscalEntradaProduto.html">NotaFiscalEntradaProduto</a></li><li><a href="module-model_NotaFiscal-NotaFiscalSaidaProduto.html">NotaFiscalSaidaProduto</a></li><li><a href="module-model_Pessoa-Pessoa.html">Pessoa</a></li><li><a href="module-model_Pessoa-PessoaMestre.html">PessoaMestre</a></li><li><a href="module-model_ProdutoSimulador-ProdutoSimulador.html">ProdutoSimulador</a></li><li><a href="module-model_Produto-Produto.html">Produto</a></li><li><a href="module-model_Produto-ProdutoMestre.html">ProdutoMestre</a></li><li><a href="module-model_Produto-ProdutoMestreItem.html">ProdutoMestreItem</a></li><li><a href="module-model_Sf0190-Sf0190.html">Sf0190</a></li><li><a href="module-model_Sf433-Sf433.html">Sf433</a></li><li><a href="module-model_Sf434-Sf434.html">Sf434</a></li><li><a href="module-model_Sf453-Sf453.html">Sf453</a></li><li><a href="module-model_Sf0460-Sf0460.html">Sf0460</a></li><li><a href="module-model_SfC110-SfC110Entrada.html">SfC110Entrada</a></li><li><a href="module-model_SfC110-SfC110Saida.html">SfC110Saida</a></li><li><a href="module-model_SfC195-SfC195Entrada.html">SfC195Entrada</a></li><li><a href="module-model_SfC195-SfC195Saida.html">SfC195Saida</a></li><li><a href="module-model_SfC800-SfC800.html">SfC800</a></li><li><a href="module-model_SfC800-SfC800_SfC850.html">SfC850</a></li><li><a href="module-model_SfC850-SfC850.html">SfC850</a></li><li><a href="module-model_SfCest-SfCest.html">SfCest</a></li><li><a href="module-model_SFImportaArquivo-SFImportaArquivo.html">SFImportaArquivo</a></li></ul><h3>Global</h3><ul><li><a href="global.html#Cfe">Cfe</a></li><li><a href="global.html#getValueArray">getValueArray</a></li><li><a href="global.html#ifelse">ifelse</a></li><li><a href="global.html#isArray">isArray</a></li><li><a href="global.html#Nfe">Nfe</a></li><li><a href="global.html#XmlSaida">XmlSaida</a></li></ul></div>
+                
+            </nav>
+        </div>
+        <div class="core" id="main-content-wrapper">
+            <div class="content">
+                <header class="page-title">
+                    <p></p>
+                    <h1>Global</h1>
+                </header>
+                
+
+
+
+
+<section>
+
+<header>
+    
+        <h2></h2>
+        
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+        
+
+        
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        <div class='vertical-section'>
+            <h1>Methods</h1>
+            <div class="members">
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id="Cfe">
+        <a class="href-link" href="#Cfe">#</a>
+        
+        <span class="code-name">
+            
+                Cfe<span class="signature">(xmlObj, id_simul_etapa, id_empresa, id_usuario, dt_periodo)</span><span class="type-signature"></span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+<div class="table-container">
+    <table class="params table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>xmlObj</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">any</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>id_simul_etapa</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">number</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>id_empresa</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">number</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>id_usuario</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">number</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>dt_periodo</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">String</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_ImportacaoXMLSaida.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_ImportacaoXMLSaida.js.html">service/ImportacaoXMLSaida.js</a>, <a href="service_ImportacaoXMLSaida.js.html#line1463">line 1463</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id="getValueArray">
+        <a class="href-link" href="#getValueArray">#</a>
+        
+        <span class="code-name">
+            
+                getValueArray<span class="signature">(array, pos, valueDefault)</span><span class="type-signature"> &rarr; {any|String}</span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        Verifica se a variavél é um array se for retorna a posição que foi passada, senão retorna o valueDefault
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+<div class="table-container">
+    <table class="params table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>array</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">Array</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>pos</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">number</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>valueDefault</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">String</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="utils_Validar.js.html" class="button">View Source</a>
+            <span>
+                <a href="utils_Validar.js.html">utils/Validar.js</a>, <a href="utils_Validar.js.html#line28">line 28</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class='columns method-parameter'>
+        <div class="column is-2"><label>Returns:</label></div>
+        <div class="column is-10">
+            
+                    
+
+<div class="columns">
+    
+    
+    <div class='column is-5 has-text-left'>
+        <label>Type: </label>
+        
+<code class="param-type">any</code>
+|
+
+<code class="param-type">String</code>
+
+
+    </div>
+    
+</div>
+
+                
+        </div>
+    </div>
+
+
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id="ifelse">
+        <a class="href-link" href="#ifelse">#</a>
+        
+        <span class="code-name">
+            
+                ifelse<span class="signature">(param1, param2, valueDefault)</span><span class="type-signature"> &rarr; {any|string}</span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        Valida o primeiro parametro de tem alguma coisa, senão o segundo parametro senão o valor default
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+<div class="table-container">
+    <table class="params table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>param1</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">any</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Se não undefined então param1</td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>param2</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">any</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Senão undefined então param2</td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>valueDefault</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">String</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Senão o valueDefault</td>
+</tr>
+
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="utils_Validar.js.html" class="button">View Source</a>
+            <span>
+                <a href="utils_Validar.js.html">utils/Validar.js</a>, <a href="utils_Validar.js.html#line17">line 17</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class='columns method-parameter'>
+        <div class="column is-2"><label>Returns:</label></div>
+        <div class="column is-10">
+            
+                    
+
+<div class="columns">
+    
+    <div class='param-desc column is-7'>Pode retornar o param1 ou param2 ou valueDefault</div>
+    
+    
+    <div class='column is-5 has-text-left'>
+        <label>Type: </label>
+        
+<code class="param-type">any</code>
+|
+
+<code class="param-type">string</code>
+
+
+    </div>
+    
+</div>
+
+                
+        </div>
+    </div>
+
+
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id="isArray">
+        <a class="href-link" href="#isArray">#</a>
+        
+        <span class="code-name">
+            
+                isArray<span class="signature">(param)</span><span class="type-signature"> &rarr; {boolean}</span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        Verifica se o parametro é um array
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+<div class="table-container">
+    <table class="params table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>param</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">any</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="utils_Validar.js.html" class="button">View Source</a>
+            <span>
+                <a href="utils_Validar.js.html">utils/Validar.js</a>, <a href="utils_Validar.js.html#line6">line 6</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class='columns method-parameter'>
+        <div class="column is-2"><label>Returns:</label></div>
+        <div class="column is-10">
+            
+                    
+
+<div class="columns">
+    
+    
+    <div class='column is-5 has-text-left'>
+        <label>Type: </label>
+        
+<code class="param-type">boolean</code>
+
+
+    </div>
+    
+</div>
+
+                
+        </div>
+    </div>
+
+
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id="Nfe">
+        <a class="href-link" href="#Nfe">#</a>
+        
+        <span class="code-name">
+            
+                Nfe<span class="signature">(xmlObj, id_simul_etapa, id_empresa, id_usuario, dt_periodo)</span><span class="type-signature"></span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+<div class="table-container">
+    <table class="params table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>xmlObj</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">any</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>id_simul_etapa</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">number</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>id_empresa</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">number</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>id_usuario</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">number</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>dt_periodo</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">String</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_ImportacaoXMLSaida.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_ImportacaoXMLSaida.js.html">service/ImportacaoXMLSaida.js</a>, <a href="service_ImportacaoXMLSaida.js.html#line18">line 18</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id="XmlSaida">
+        <a class="href-link" href="#XmlSaida">#</a>
+        
+        <span class="code-name">
+            
+                XmlSaida<span class="signature">(filename, path, id_simul_etapa, id_empresa, id_usuario, dt_periodo, nm_procedure1, nm_procedure2)</span><span class="type-signature"></span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+<div class="table-container">
+    <table class="params table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>filename</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">String</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>path</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">String</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>id_simul_etapa</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">number</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>id_empresa</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">number</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>id_usuario</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">number</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>dt_periodo</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">String</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>nm_procedure1</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">String</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>nm_procedure2</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">String</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"></td>
+</tr>
+
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_ImportacaoXML.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_ImportacaoXML.js.html">service/ImportacaoXML.js</a>, <a href="service_ImportacaoXML.js.html#line23">line 23</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+            
+            </div>
+        </div>
+    
+
+    
+        <div class='vertical-section'>
+            <h1>Type Definitions</h1>
+            <div class="members">
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="camposC110Entrada">
+    <a class="href-link" href="#camposC110Entrada">#</a>
+    
+    <span class="code-name">
+        camposC110Entrada
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos SFC110 Entrada
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_modelo_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_item_imp</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_0450</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>ds_complementar</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_usuario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_SfC110.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_SfC110.js.html">service/model/SfC110.js</a>, <a href="service_model_SfC110.js.html#line240">line 240</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="camposC110Saida">
+    <a class="href-link" href="#camposC110Saida">#</a>
+    
+    <span class="code-name">
+        camposC110Saida
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos SFC110 Saída
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_modelo_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_item_imp</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_0450</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>ds_complementar</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_usuario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_SfC110.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_SfC110.js.html">service/model/SfC110.js</a>, <a href="service_model_SfC110.js.html#line127">line 127</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="chaveC100Entrada">
+    <a class="href-link" href="#chaveC100Entrada">#</a>
+    
+    <span class="code-name">
+        chaveC100Entrada
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos Chave SFC110 Entrada
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_pessoa_remetente</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Pessoa Remetente</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Número do Documento</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>serie_subserie_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Série e Subserie</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_emissao_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Data da emissão do documento</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Identificação da Empresa</td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_AcC060.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_AcC060.js.html">service/model/AcC060.js</a>, <a href="service_model_AcC060.js.html#line95">line 95</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="chaveC100Entrada">
+    <a class="href-link" href="#chaveC100Entrada">#</a>
+    
+    <span class="code-name">
+        chaveC100Entrada
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos Chave SFC110 Entrada
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_pessoa_remetente</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Pessoa Remetente</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Número do Documento</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>serie_subserie_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Série e Subserie</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_emissao_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Data da emissão do documento</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Identificação da Empresa</td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_SfC110.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_SfC110.js.html">service/model/SfC110.js</a>, <a href="service_model_SfC110.js.html#line228">line 228</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="chaveC100Saida">
+    <a class="href-link" href="#chaveC100Saida">#</a>
+    
+    <span class="code-name">
+        chaveC100Saida
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos da Chave da Tabela Nota Fiscal de Saída
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_entrada_saida</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">1 - Entrada | 2 - Saída</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Número do Documento</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>serie_subserie_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Numero de Série</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_emissao_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Data da emissão do documento</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Identificação da Empresa</td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_NotaFiscalProduto.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_NotaFiscalProduto.js.html">service/model/NotaFiscalProduto.js</a>, <a href="service_model_NotaFiscalProduto.js.html#line256">line 256</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="chaveC100Saida">
+    <a class="href-link" href="#chaveC100Saida">#</a>
+    
+    <span class="code-name">
+        chaveC100Saida
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos Chave SFC110 Saída
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_entrada_saida</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">1 - Entrada | 2 - Saída</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Número do Documento</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>serie_subserie_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Série e Subserie</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_emissao_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Data da emissão do documento</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Identificação da Empresa</td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_SfC110.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_SfC110.js.html">service/model/SfC110.js</a>, <a href="service_model_SfC110.js.html#line115">line 115</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="dataAcC050Entrada">
+    <a class="href-link" href="#dataAcC050Entrada">#</a>
+    
+    <span class="code-name">
+        dataAcC050Entrada
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos da Tabela AcC050Entrada
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_modelo_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_433</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aliq_pis</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_bc_pis</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_pis</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_aliq_pis</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_pis_st</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>qtde_bc_pis</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_434</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aliq_cofins</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_bc_cofins</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_cofins</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_aliq_cofins</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>qtde_bc_cofins</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_nota_fiscal_entrada</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+|
+
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_pessoa_remetente</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_emissao_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_item</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_sequencia</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>serie_subserie_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_usuario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_AcC050.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_AcC050.js.html">service/model/AcC050.js</a>, <a href="service_model_AcC050.js.html#line235">line 235</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="dataAcC050Saida">
+    <a class="href-link" href="#dataAcC050Saida">#</a>
+    
+    <span class="code-name">
+        dataAcC050Saida
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos da Tabela AcC050Saida
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_entrada_saida</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">1 - Entrada | 2 - Saída</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_modelo_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Identificador do modelo Documento</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_433</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Identificador do 433</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aliq_pis</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_bc_pis</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_pis</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_aliq_pis</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_pis_st</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>qtde_bc_pis</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_434</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aliq_cofins</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_bc_cofins</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_cofins</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_aliq_cofins</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_cofins_st</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>qtde_bc_cofins</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_nota_fiscal_saida</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_emissao_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+|
+
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_item</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_sequencia</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>serie_subserie_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_usuario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_AcC050.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_AcC050.js.html">service/model/AcC050.js</a>, <a href="service_model_AcC050.js.html#line204">line 204</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="dataAcC060Entrada">
+    <a class="href-link" href="#dataAcC060Entrada">#</a>
+    
+    <span class="code-name">
+        dataAcC060Entrada
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos da Tabela AcC060Entrada
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_importacao</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_di</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_registro</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_desembaraco</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_pis</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_cofins</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_nota_fiscal_entrada</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_pessoa_remetente</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_emissao_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_item</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_sequencia</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>serie_subserie_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_usuario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_modelo_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_AcC060.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_AcC060.js.html">service/model/AcC060.js</a>, <a href="service_model_AcC060.js.html#line72">line 72</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="dataAcC700Entrada">
+    <a class="href-link" href="#dataAcC700Entrada">#</a>
+    
+    <span class="code-name">
+        dataAcC700Entrada
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos da Tabela AcC060Entrada
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_tipo_ligacao</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_grupo_tensao</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_331_municipio</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_chave_nf_eletronica_ref</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_fornecido</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_nota_fiscal_entrada</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_pessoa_remetente</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_emissao_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>serie_subserie_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_usuario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_modelo_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_AcC700.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_AcC700.js.html">service/model/AcC700.js</a>, <a href="service_model_AcC700.js.html#line150">line 150</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="dataAcC700Saida">
+    <a class="href-link" href="#dataAcC700Saida">#</a>
+    
+    <span class="code-name">
+        dataAcC700Saida
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos da Tabela AcC700Saida
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_entrada_saida</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_tipo_ligacao</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_grupo_tensao</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_331_municipio</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_chave_nf_eletronica_ref</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_fornecido</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_nota_fiscal_saida</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_emissao_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>serie_subserie_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_usuario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_modelo_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_AcC700.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_AcC700.js.html">service/model/AcC700.js</a>, <a href="service_model_AcC700.js.html#line130">line 130</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="dataDeParaProduto">
+    <a class="href-link" href="#dataDeParaProduto">#</a>
+    
+    <span class="code-name">
+        dataDeParaProduto
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos da Tabela De Para Produto
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>cd_produto_saida</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>cd_produto_entrada</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>cnpj_principal</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>ds_produto_entrada</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>cd_ncm</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_inicial</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_Produto.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_Produto.js.html">service/model/Produto.js</a>, <a href="service_model_Produto.js.html#line281">line 281</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="dataNotaFiscalEntradaItem">
+    <a class="href-link" href="#dataNotaFiscalEntradaItem">#</a>
+    
+    <span class="code-name">
+        dataNotaFiscalEntradaItem
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos da Tabela dataNotaFiscalEntradaItem
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_modelo_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>serie_subserie_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_emissao_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_pessoa_remetente</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_sequencia</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_produto_servico</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_0190</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_unitario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_total_item</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_desconto_item</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_movimentacao_fisica</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>cd_fiscal_operacao</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_fci</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_431</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_base_calculo_icms</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_base_calculo_icms_subst</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aliq_icms_subst</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_substituicao</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aliq_icms</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_reducao_bc_icms</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_tributacao_icms</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_432</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_base_calculo_ipi</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_ipi</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aliq_ipi</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>qtde</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>unidade</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_tributacao_ipi</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_outras_despesas</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_outras_despesas</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_frete</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_seguro</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_item</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>ds_complementar</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_mot_desc_icms</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_desonerado</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_bc_ii</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_desp_adu</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_ii</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_iof</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_bc_icms_uf_dest</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>perc_icms_fcp</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aliq_icms_uf_dest</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aliq_icms_interestadual</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>perc_icms_partilha</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_fcp</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_uf_dest</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_uf_remet</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_453</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_bc_fcp_op</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aliq_fcp_op</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_fcp_op</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_bc_fcp_st</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aliq_fcp_st</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_fcp_st</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_bc_icms_st_obs</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_st_obs</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>cd_classificacao_fiscal_merc</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_usuario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_NotaFiscalProdutoItem.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_NotaFiscalProdutoItem.js.html">service/model/NotaFiscalProdutoItem.js</a>, <a href="service_model_NotaFiscalProdutoItem.js.html#line312">line 312</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="dataNotaFiscalEntradaProduto">
+    <a class="href-link" href="#dataNotaFiscalEntradaProduto">#</a>
+    
+    <span class="code-name">
+        dataNotaFiscalEntradaProduto
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos da Tabela dataNotaFiscalEntradaProduto
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_pessoa_remetente</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_modelo_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>serie_subserie_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_tipo_fatura</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_emissao_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_entrada</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_total_nota_fiscal</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_desconto</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_substituicao</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_outras_despesas</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_total_mercadoria</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_frete</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_seguro</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_ipi</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_modalidade_frete</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_413</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_desonerado</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_chave_nf_eletronica</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_fcp</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_uf_dest</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_uf_remet</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_chave_nf_eletron_ref_cat83</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_fcp_st</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_331_munic_orig</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_331_munic_dest</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_tipo_cte</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_finalidade</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_usuario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_NotaFiscalProduto.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_NotaFiscalProduto.js.html">service/model/NotaFiscalProduto.js</a>, <a href="service_model_NotaFiscalProduto.js.html#line310">line 310</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="dataNotaFiscalSaidaItem">
+    <a class="href-link" href="#dataNotaFiscalSaidaItem">#</a>
+    
+    <span class="code-name">
+        dataNotaFiscalSaidaItem
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos da Tabela dataNotaFiscalSaidaItem
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_entrada_saida</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_modelo_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>serie_subserie_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_emissao_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_sequencia</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_produto_servico</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_0190</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_unitario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_total_item</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_desconto_item</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_movimentacao_fisica</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>cd_fiscal_operacao</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_fci</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_431</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_base_calculo_icms</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_base_calculo_icms_subst</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aliq_icms_subs</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_substituicao</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aliq_icms</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_reducao_bc_icms</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_perc_red_icms</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_perc_red_icms_st</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_mod_bc_icms</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_mod_bc_icms_st</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_tributacao_icms</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_432</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_base_calculo_ipi</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_ipi</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aliq_ipi</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>qtde</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>unidade</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_tributacao_ipi</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_outras_despesas</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_frete</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_seguro</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_item</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>ds_complementar</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_mot_desc_icms</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_desonerado</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_bc_ii</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_desp_adu</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_ii</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_iof</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_bc_icms_uf_dest</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>perc_icms_fcp</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aliq_icms_uf_dest</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aliq_icms_interestadual</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>perc_icms_partilha</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_fcp</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_uf_dest</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_uf_remet</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_453</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_bc_fcp_op</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aliq_fcp_op</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_fcp_op</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_bc_fcp_st</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aliq_fcp_st</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_fcp_st</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_bc_icms_st_obs</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_st_obs</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>qtde_tributada</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_usuario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_NotaFiscalProdutoItem.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_NotaFiscalProdutoItem.js.html">service/model/NotaFiscalProdutoItem.js</a>, <a href="service_model_NotaFiscalProdutoItem.js.html#line240">line 240</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="dataNotaFiscalSaidaProduto">
+    <a class="href-link" href="#dataNotaFiscalSaidaProduto">#</a>
+    
+    <span class="code-name">
+        dataNotaFiscalSaidaProduto
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos da Tabela dataNotaFiscalSaidaProduto
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_entrada_saida</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_pessoa_destinatario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_modelo_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>serie_subserie_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_tipo_fatura</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_emissao_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_entrada_saida</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_total_nota_fiscal</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_desconto</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_substituicao</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_outras_despesas</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_total_mercadoria</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_frete</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_ipi</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_seguro</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_modalidade_frete</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_413</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_desonerado</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_cancelamento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_gare</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_gnre</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_chave_nf_eletronica</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_pessoa_remetente_cte</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_fcp</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_uf_dest</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms_uf_remet</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_chave_nf_eletron_ref_cat83</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_fcp_st</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_331_munic_orig</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_331_munic_dest</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_tipo_cte</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_finalidade</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_usuario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_NotaFiscalProduto.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_NotaFiscalProduto.js.html">service/model/NotaFiscalProduto.js</a>, <a href="service_model_NotaFiscalProduto.js.html#line268">line 268</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="dataPessoa">
+    <a class="href-link" href="#dataPessoa">#</a>
+    
+    <span class="code-name">
+        dataPessoa
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos da Tabela dataPessoa
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_inicial</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>cd_pessoa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nm_razao_social</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>ds_endereco</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>ds_bairro</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_331_municipio</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>uf</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_331_pais</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_cep</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_cnpj_cpf</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_inscricao_estadual</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_movimento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_numero</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>ds_complemento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_fone</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_contribuinte</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_id_estrangeiro</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_usuario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_Pessoa.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_Pessoa.js.html">service/model/Pessoa.js</a>, <a href="service_model_Pessoa.js.html#line237">line 237</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="dataPessoaMestre">
+    <a class="href-link" href="#dataPessoaMestre">#</a>
+    
+    <span class="code-name">
+        dataPessoaMestre
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos da Tabela dataPessoaMestre
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_pessoa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>cd_pessoa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_usuario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_Pessoa.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_Pessoa.js.html">service/model/Pessoa.js</a>, <a href="service_model_Pessoa.js.html#line263">line 263</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="dataProdutoServico">
+    <a class="href-link" href="#dataProdutoServico">#</a>
+    
+    <span class="code-name">
+        dataProdutoServico
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos da Tabela dataProdutoServico
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>cd_produto_servico</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>cd_barra</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>ds_produto_servico</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_331_ncm</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_331_ex_ipi</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_tipo_item</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>unidade</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_0190</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_inicial</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_movimento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_cest</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_usuario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_Produto.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_Produto.js.html">service/model/Produto.js</a>, <a href="service_model_Produto.js.html#line261">line 261</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="dataSf0190">
+    <a class="href-link" href="#dataSf0190">#</a>
+    
+    <span class="code-name">
+        dataSf0190
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos Chave Sf0190
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>ds_unidade</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>ds_descricao</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_inicial</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_movimento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_usuario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Data da emissão do documento</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Identificação da Empresa</td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_Sf0190.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_Sf0190.js.html">service/model/Sf0190.js</a>, <a href="service_model_Sf0190.js.html#line169">line 169</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="dataSf0460">
+    <a class="href-link" href="#dataSf0460">#</a>
+    
+    <span class="code-name">
+        dataSf0460
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos Chave Sf0460
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>cd_obs</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+|
+
+<code class="param-type">null</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Pessoa Remetente</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_inicial</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Número do Documento</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_movimento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Série e Subserie</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>ds_obs</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Série e Subserie</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_usuario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Data da emissão do documento</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Identificação da Empresa</td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_Sf0460.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_Sf0460.js.html">service/model/Sf0460.js</a>, <a href="service_model_Sf0460.js.html#line98">line 98</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="dataSfC195Entrada">
+    <a class="href-link" href="#dataSfC195Entrada">#</a>
+    
+    <span class="code-name">
+        dataSfC195Entrada
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos da Tabela SfC195Entrada
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_item</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_sequencia</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>ds_complementar</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_0460</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_nota_fiscal_entrada</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_pessoa_remetente</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_emissao_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>serie_subserie_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_usuario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_modelo_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_SfC195.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_SfC195.js.html">service/model/SfC195.js</a>, <a href="service_model_SfC195.js.html#line147">line 147</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="dataSfC195Saida">
+    <a class="href-link" href="#dataSfC195Saida">#</a>
+    
+    <span class="code-name">
+        dataSfC195Saida
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos da Tabela dataSfC195Saida
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dm_entrada_saida</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_item</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>ds_complementar</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_0460</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_nota_fiscal_saida</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_emissao_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>serie_subserie_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_usuario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_modelo_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_SfC195.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_SfC195.js.html">service/model/SfC195.js</a>, <a href="service_model_SfC195.js.html#line129">line 129</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="dataSfC800">
+    <a class="href-link" href="#dataSfC800">#</a>
+    
+    <span class="code-name">
+        dataSfC800
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos da Tabela SfC800
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_chave_cfe</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_modelo_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_413</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_cnpj_cpf</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_serie_sat</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_cfe</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_caixa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nm_destinatario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_desconto</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_mercadoria</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_outras_desp</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_pis</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_pis_st</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_cofins</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_cofins_st</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_cfe</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_usuario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_SfC800.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_SfC800.js.html">service/model/SfC800.js</a>, <a href="service_model_SfC800.js.html#line84">line 84</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="dataSfC850">
+    <a class="href-link" href="#dataSfC850">#</a>
+    
+    <span class="code-name">
+        dataSfC850
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Campos da Tabela SfC850
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_item</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>dt_documento</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_cfe</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_413</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>nr_serie_sat</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>cd_fiscal_operacao</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_produto_servico</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_total_item</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_0460</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_431</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">String</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aliq_icms</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_bc_icms</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_icms</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_433</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aliq_pis</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_bc_pis</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_pis</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_aliq_pis</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_qtde_bc_pis</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_ref_434</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_bc_cofins</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aliq_cofins</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_cofins</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_aliq_cofins</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_qtde_bc_cofins</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>qtde</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_unitario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_outras_desp</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vl_desconto</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_empresa</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>id_usuario</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type">Number</code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_SfC850.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_SfC850.js.html">service/model/SfC850.js</a>, <a href="service_model_SfC850.js.html#line88">line 88</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="paramSfC110Entrada">
+    <a class="href-link" href="#paramSfC110Entrada">#</a>
+    
+    <span class="code-name">
+        paramSfC110Entrada
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Tabela SFC110 Entrada
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>chaveC100Entrada</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type"><a href="global.html#chaveC100Entrada">chaveC100Entrada</a></code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>camposC110Entrada</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type"><a href="global.html#camposC110Entrada">camposC110Entrada</a></code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_SfC110.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_SfC110.js.html">service/model/SfC110.js</a>, <a href="service_model_SfC110.js.html#line252">line 252</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id="paramSfC110Saida">
+    <a class="href-link" href="#paramSfC110Saida">#</a>
+    
+    <span class="code-name">
+        paramSfC110Saida
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    Tabela SFC110 Saída
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>chaveC100Saida</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type"><a href="global.html#chaveC100Saida">chaveC100Saida</a></code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>camposC110Saida</code></td>
+    
+
+    <td class="type">
+    
+        
+<code class="param-type"><a href="global.html#camposC110Saida">camposC110Saida</a></code>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last"></td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="service_model_SfC110.js.html" class="button">View Source</a>
+            <span>
+                <a href="service_model_SfC110.js.html">service/model/SfC110.js</a>, <a href="service_model_SfC110.js.html#line139">line 139</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+</div>
+            
+            </div>
+        </div>
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+            </div>
+            
+            <footer class="footer">
+                <div class="content has-text-centered">
+                    <p>Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.10</a></p>
+                    <p class="sidebar-created-by">
+                        <a href="https://github.com/SoftwareBrothers/better-docs" target="_blank">BetterDocs theme</a> provided with <i class="fas fa-heart"></i> by
+                        <a href="http://softwarebrothers.co" target="_blank">SoftwareBrothers - JavaScript Development Agency</a>
+                    </p>
+                </div>
+            </footer>
+            
+        </div>
+        <div id="side-nav" class="side-nav">
+        </div>
+    </div>
+<script src="scripts/app.min.js"></script>
+<script>PR.prettyPrint();</script>
+<script src="scripts/linenumber.js"> </script>
+
+<script src="scripts/search.js"> </script>
+
+
+</body>
+</html>
